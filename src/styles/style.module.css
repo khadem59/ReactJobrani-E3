@@ -1,0 +1,113 @@
+.stage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 60px;
+    margin: 10px auto;
+    text-align: center;
+    background: #aaf6f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 2rem;
+    color: #29999e;
+}
+
+.section-container {
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    gap: 10px;
+}
+
+.section-a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: start;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40%;
+}
+
+.section-b {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: start;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 25%;
+}
+
+.section-c {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: start;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 25%;
+}
+
+.section-d {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.chair {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.chair-unselected {
+    background-color: #E7E9FF;
+    color: black;
+}
+
+.chair-selected {
+    background-color: #00ba44;
+    color: white;
+}
+
+.chair-pending {
+    background-color: #ffbd61;
+    color: white;
+}
+
+.chair-reserved {
+    background-color: #ff3232;
+    color: white;
+}
+
+.calc-box {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+.calc-box div {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 150px;
+    text-align: center;
+    background-color: #e4fcff;
+}
